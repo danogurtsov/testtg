@@ -20,7 +20,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.effective_user.id != ALLOWED_USER_ID:
         await update.message.reply_text("Access denied.")
         return
-    await update.message.reply_text("Hey hey NEW NEW 32 OLA 2")
+    await update.message.reply_text("Hey hey NEW NEW 32 OLAOLA 2")
 
 if __name__ == "__main__":
     TOKEN = os.getenv("TELEGRAM_TOKEN")
